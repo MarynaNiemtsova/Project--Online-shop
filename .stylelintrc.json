@@ -1,0 +1,6 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "selector-max-specificity": "0,2,1"
+  }
+}

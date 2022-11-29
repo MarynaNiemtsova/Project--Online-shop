@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test CI",
+      "setup": "npm install",
+      "run": "npm run test:ci",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    },
+    {
+      "name": "JS Lint",
+      "setup": "npm install",
+      "run": "npm run lint:js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "CSS Lint",
+      "setup": "npm install",
+      "run": "npm run lint:css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Prettier",
+      "setup": "npm install",
+      "run": "npm run prettier:check",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}

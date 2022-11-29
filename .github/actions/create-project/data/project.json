@@ -1,0 +1,15 @@
+{
+  "name": "Online Shop",
+  "columns": [
+    {
+      "name": "To Do",
+      "default": true
+    },
+    {
+      "name": "In Progress"
+    },
+    {
+      "name": "Done"
+    }
+  ]
+}

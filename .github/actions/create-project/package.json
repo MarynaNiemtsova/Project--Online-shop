@@ -1,0 +1,28 @@
+{
+  "name": "hello-world-javascript-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwcooper/hello-world-javascript-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwcooper/hello-world-javascript-action/issues"
+  },
+  "homepage": "https://github.com/lwcooper/hello-world-javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0",
+    "@octokit/core": "^3.2.4",
+    "@octokit/plugin-throttling": "^3.3.4",
+    "@vercel/ncc": "^0.25.1"
+  }
+}

@@ -1,0 +1,22 @@
+# on: [push]
+on:
+  pull_request:
+    # feedback PR is created automatically by GitHub Classrooms
+    # I can't think of another way to trigger this workflow, because
+    # there is no 'repository created' trigger it seems
+    branches:
+      - feedback
+    types:
+      - opened
+
+jobs:
+  create_project:
+    runs-on: ubuntu-latest
+    name: Create GitHub Project
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Create GitHub Project and issues
+        uses: ./.github/actions/create-project
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

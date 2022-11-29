@@ -1,0 +1,9 @@
+name: "Create Project"
+description: "Creates a project for this repository"
+inputs:
+  token:
+    description: "Auth Token for repo"
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"

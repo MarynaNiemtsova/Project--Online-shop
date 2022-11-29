@@ -6,9 +6,9 @@ An online shop that sells plants.
 [Site Preview](https://subtle-palmier-5aa8f9.netlify.app/)
 
 
-![Screenshot of online shop](Screenshotso.png)
+![Screenshot of online shop](screenshot1.png)
 
-![Screenshot of mob online shop](Screenshotmob.png)
+![Screenshot of mob online shop](screenshot2.png)
 
 ## Dependencies
 
